@@ -6,7 +6,7 @@ const courseContent = [
     { name: "Oracle", link: " https://www.oracle.com/database/technologies/appdev.html" },
     { name: "Frontend", link: "https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer" },
     { name: "JSP", link: "https://www.tutorialspoint.com/jsp/index.htm" },
-    { name: "Servelets", link: "./servlets.html" },
+    { name: "Servelets", link: "Servlets/index.html" },
     { name: "JDBC", link: " https://www.geeksforgeeks.org/jdbc-in-java/" }
   ];
   
