@@ -6,7 +6,7 @@ const courseContent = [
     { name: "Oracle", link: " https://www.oracle.com/database/technologies/appdev.html" },
     { name: "Frontend", link: "https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer" },
     { name: "JSP", link: "https://www.tutorialspoint.com/jsp/index.htm" },
-    { name: "Servelets", link: "https://www.javatpoint.com/servlet-tutorial" },
+    { name: "Servelets", link: "./servlets.html" },
     { name: "JDBC", link: " https://www.geeksforgeeks.org/jdbc-in-java/" }
   ];
   
@@ -21,4 +21,6 @@ const courseContent = [
     listItem.appendChild(link);
     courseListElement.appendChild(listItem);
   });
+
+  
   
