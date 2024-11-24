@@ -55,23 +55,16 @@ main {
   margin-bottom: 1rem;
   font-size: 2rem;
 }
-
-/* Default landscape style */
-body {
-  transform: none;
-  transform-origin: center;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scrollbars */
-}
-
-/* Rotate and scale the content for portrait mode */
-@media (orientation: portrait) {
-  body {
-      transform: rotate(-90deg) scale(0.8); /* Rotate and scale */
-      transform-origin: left top; /* Adjust origin to match layout */
-      height: 100vw; /* Use viewport width as height due to rotation */
-      width: 100vh; /* Use viewport height as width due to rotation */
-      overflow: hidden; /* Hide any extra content */
-  }
+header {
+  background: linear-gradient(90deg, #0073e6, #0051a3);
+  color: white;
+  display: flex
+;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem 0rem 0rem;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
 }
