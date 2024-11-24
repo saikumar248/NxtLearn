@@ -55,16 +55,4 @@ main {
   margin-bottom: 1rem;
   font-size: 2rem;
 }
-header {
-  background: linear-gradient(90deg, #0073e6, #0051a3);
-  color: white;
-  display: flex
-;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0rem 2rem 0rem 0rem;
-  /* position: fixed; */
-  top: 0;
-  left: 0;
-  width: 100%;
-}
+
