@@ -1,10 +1,16 @@
 header {
-  background: linear-gradient(90deg, #0073e6, #0051a3);
+  /* background: linear-gradient(90deg, #0073e6, #0051a3);
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0072C6;
+  color: #fff;
+  padding: 20px;
 }
 
 header h1 {
