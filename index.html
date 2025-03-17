@@ -35,11 +35,11 @@
           <button class="button button5" type="submit" formaction="https://docs.google.com/document/d/1qBb0dHK6ipYvE1Yfs4H0PVtTaNTJ28TKtHwUwE9-rdk/edit?usp=drive_link" target="_blank">Oracle</button>
           <button class="button button5" type="submit" formaction="https://docs.google.com/document/d/15So6DX2C5TpRdkee_ol3f46Mhh98299UZ6BbS-NU1sY/edit?usp=drive_link" target="_blank">AWS</button>
           <button class="button button5" type="submit" formaction="https://docs.google.com/document/d/1U05GmM7_E8tVmTjr_D8P4L3R6yzGyQKpxl0oqn9-lMk/edit?usp=drive_link" target="_blank">JSP</button>
-          <button class="button button5" type="submit" formaction="https://docs.google.com/document/d/1vop9MHr2L3NFb22Vgep4K1fD5HfMK3JRFnNU-7d43Do/edit?usp=drive_link">Servelets</button>
+          <button class="button button5" type="submit" formaction="https://docs.google.com/document/d/1vop9MHr2L3NFb22Vgep4K1fD5HfMK3JRFnNU-7d43Do/edit?usp=drive_link" target="_blank">Servelets</button>
           <button class="button button5" type="submit" formaction="https://docs.google.com/document/d/1V9MNL61Pt27_SkqiDYF2obL6npSv5NGSV8J5FrSFP3g/edit?usp=drive_link" target="_blank">JDBC</button>
           <button class="button button5" type="submit" formaction="https://docs.google.com/document/d/1OaJZLfZjKBdUZxQNn-VzIADhQyTYgBQC7jgnRIZ09Jg/edit?usp=drive_link" target="_blank">JS</button>
           <button class="button button5" type="submit" formaction="https://docs.google.com/document/d/1R9uRC_vPHypcvcGh6Uha782aA7HgCCuQ9Jdn39ONQWI/edit?usp=drive_link" target="_blank">React JS</button>
-          <br>
+
           <button class="button button5" type="submit" formaction="https://skillzam.com/notes/javascriptNotes.html" target="_blank">JS-SkillZam</button>
           <button class="button button5" type="submit" formaction="https://skillzam.com/notes/reactjsNotes.html" target="_blank">React JS-SkillZam</button>
 
@@ -58,25 +58,26 @@
 <style>
 /* General Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f3f4f6;
+  background: linear-gradient(135deg, #f3f4f6, #e2e8f0);
   color: #333;
 }
 
 /* Header Styles */
 header {
-  background: linear-gradient(90deg, #0073e6, #0051a3);
+  background: linear-gradient(90deg, #080024, #0051a3);
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -100,16 +101,18 @@ nav .nav_links a {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  width: 50px; /* Fixed width for uniform size */
+  width: 70px; /* Adjusted width for uniform size */
   text-align: center;
   display: inline-block;
-  transition: background-color 0.3s, transform 0.2s;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav .nav_links a:hover {
   background-color: #ffcc00;
   color: #333;
   transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 /* Main Section */
@@ -121,7 +124,7 @@ main {
   text-align: center;
   color: #0051a3;
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .button-container {
@@ -140,20 +143,27 @@ main {
   font-weight: bold;
   cursor: pointer;
   width: 200px; /* Fixed width for uniform size */
-  transition: background-color 0.3s, transform 0.2s;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .button-container button:hover {
   background-color: #ffcc00;
   color: #333;
   transform: translateY(-3px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 1rem 0;
-  background-color: #0073e6;
+  background-color: #080024;
   color: white;
+  transition: background-color 0.3s;
+}
+
+footer:hover {
+  background-color: #0051a3;
 }
 </style>
